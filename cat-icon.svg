@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Medium-sized Lower Ears -->
-  <path d="M15 45 L25 10 L45 40 Z" fill="#FFD1DC" />
-  <path d="M85 45 L75 10 L55 40 Z" fill="#FFD1DC" />
+  <!-- Medium-sized White Ears -->
+  <path d="M15 45 L25 10 L45 40 Z" fill="white" stroke="#FFD1DC" stroke-width="1" />
+  <path d="M85 45 L75 10 L55 40 Z" fill="white" stroke="#FFD1DC" stroke-width="1" />
   <!-- Face -->
-  <circle cx="50" cy="55" r="35" fill="#FFE4E1" stroke="#FFD1DC" stroke-width="2" />
+  <circle cx="50" cy="55" r="35" fill="white" stroke="#FFD1DC" stroke-width="2" />
   <!-- Eyes -->
   <circle cx="40" cy="50" r="4" fill="#555" />
   <circle cx="60" cy="50" r="4" fill="#555" />
