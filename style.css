@@ -92,8 +92,22 @@ header p {
 .mid-grade .card { border: 2px solid var(--mid-grade-color); }
 .high-grade .card { border: 2px solid var(--high-grade-color); }
 
-.emoji {
-    font-size: 2rem;
+.header-icon {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.section-icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.card-icon {
+    width: 50px;
+    height: 50px;
     margin-right: 1.5rem;
 }
 

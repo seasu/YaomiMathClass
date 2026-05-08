@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Ears -->
+  <path d="M20 40 L35 15 L50 35 Z" fill="#FFD1DC" />
+  <path d="M80 40 L65 15 L50 35 Z" fill="#FFD1DC" />
+  <!-- Face -->
+  <circle cx="50" cy="55" r="35" fill="#FFE4E1" stroke="#FFD1DC" stroke-width="2" />
+  <!-- Eyes -->
+  <circle cx="40" cy="50" r="4" fill="#555" />
+  <circle cx="60" cy="50" r="4" fill="#555" />
+  <!-- Nose/Mouth -->
+  <path d="M48 62 Q50 65 52 62" fill="none" stroke="#555" stroke-width="2" />
+  <path d="M45 65 Q48 68 50 65 Q52 68 55 65" fill="none" stroke="#555" stroke-width="2" />
+  <!-- Blush -->
+  <circle cx="28" cy="60" r="5" fill="#FFD1DC" opacity="0.6" />
+  <circle cx="72" cy="60" r="5" fill="#FFD1DC" opacity="0.6" />
+</svg>
