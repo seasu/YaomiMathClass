@@ -1,0 +1,120 @@
+:root {
+    --bg-color: #FFF9FB;
+    --text-color: #555;
+    --low-grade-color: #FFD1DC; /* Pastel Pink */
+    --mid-grade-color: #AEC6CF; /* Pastel Blue */
+    --high-grade-color: #FDFD96; /* Pastel Yellow */
+    --header-bg: #FFE4E1;
+    --footer-bg: #F5F5F5;
+    --card-hover-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+header {
+    background-color: var(--header-bg);
+    padding: 3rem 1rem;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #FF69B4;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.grade-section {
+    margin-bottom: 3rem;
+}
+
+.grade-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    padding-left: 0.5rem;
+    border-left: 8px solid;
+    border-radius: 4px;
+}
+
+.low-grade h2 { border-color: var(--low-grade-color); }
+.mid-grade h2 { border-color: var(--mid-grade-color); }
+.high-grade h2 { border-color: var(--high-grade-color); }
+
+.links-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--card-hover-shadow);
+}
+
+.low-grade .card { border: 2px solid var(--low-grade-color); }
+.mid-grade .card { border: 2px solid var(--mid-grade-color); }
+.high-grade .card { border: 2px solid var(--high-grade-color); }
+
+.emoji {
+    font-size: 2rem;
+    margin-right: 1.5rem;
+}
+
+.text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--footer-bg);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    color: #999;
+}
+
+@media (max-width: 600px) {
+    header h1 { font-size: 2rem; }
+    .grade-section h2 { font-size: 1.5rem; }
+}
