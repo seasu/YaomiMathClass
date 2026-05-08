@@ -89,7 +89,7 @@ header h1 {
 .map-node {
     width: 60px;
     height: 60px;
-    background: white;
+    background-color: var(--mid-grade-color);
     border: 4px solid white;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -117,10 +117,6 @@ header h1 {
     white-space: nowrap;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
-
-.level-1, .level-2 { background-color: var(--low-grade-color); }
-.level-3, .level-4 { background-color: var(--mid-grade-color); }
-.level-5, .level-6 { background-color: var(--high-grade-color); }
 
 .marker-cat { width: 50px; margin-bottom: 5px; }
 .star { font-size: 2rem; margin-bottom: 5px; }
