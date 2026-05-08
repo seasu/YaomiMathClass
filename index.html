@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>姚老師數學教室 - 國小數學教材</title>
+    <title>姚老師數學教室 - 數學冒險地圖</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,56 +12,68 @@
 </head>
 <body>
     <header>
-        <h1><img src="cat-icon.svg" alt="Cat" class="header-icon"> 姚老師數學教室 <img src="cat-icon.svg" alt="Cat" class="header-icon"></h1>
-        <p>讓數學變得簡單又有趣！點擊下方的連結開始學習吧。</p>
+        <div class="header-content">
+            <img src="cat-icon.svg" alt="Cat" class="header-icon float-cat">
+            <h1>姚老師數學冒險</h1>
+            <p>跟著小貓一起探索數學王國吧！</p>
+        </div>
     </header>
 
-    <main class="container">
-        <section class="grade-section low-grade">
-            <h2><img src="cat-icon.svg" alt="Cat" class="section-icon"> 低年級 (一、二年級)</h2>
-            <div class="links-container">
-                <a href="https://gemini.google.com/share/b1695405f7c6" target="_blank" class="card">
-                    <img src="cat-icon.svg" alt="Cat" class="card-icon">
-                    <span class="text">低年級教材 1</span>
-                </a>
-                <a href="https://gemini.google.com/share/d9bc36cda428" target="_blank" class="card">
-                    <img src="cat-icon.svg" alt="Cat" class="card-icon">
-                    <span class="text">低年級教材 2</span>
-                </a>
+    <main class="map-wrapper">
+        <div class="map-container">
+            <!-- Starting point -->
+            <div class="start-point">
+                <img src="cat-icon.svg" alt="Cat" class="start-cat">
+                <span>出發點</span>
             </div>
-        </section>
 
-        <section class="grade-section mid-grade">
-            <h2><img src="cat-icon.svg" alt="Cat" class="section-icon"> 中年級 (三、四年級)</h2>
-            <div class="links-container">
-                <a href="https://gemini.google.com/share/03659a058164" target="_blank" class="card">
-                    <img src="cat-icon.svg" alt="Cat" class="card-icon">
-                    <span class="text">中年級教材 1</span>
-                </a>
-                <a href="https://gemini.google.com/share/116e4904e05c" target="_blank" class="card">
-                    <img src="cat-icon.svg" alt="Cat" class="card-icon">
-                    <span class="text">中年級教材 2</span>
+            <!-- Path Nodes -->
+            <div class="node-row node-left">
+                <a href="https://gemini.google.com/share/b1695405f7c6" target="_blank" class="level-node low-grade-node" data-label="低年級 1">
+                    <span class="level-num">1</span>
                 </a>
             </div>
-        </section>
 
-        <section class="grade-section high-grade">
-            <h2><img src="cat-icon.svg" alt="Cat" class="section-icon"> 高年級 (五、六年級)</h2>
-            <div class="links-container">
-                <a href="https://gemini.google.com/share/714a9c1368d2" target="_blank" class="card">
-                    <img src="cat-icon.svg" alt="Cat" class="card-icon">
-                    <span class="text">高年級教材 1</span>
-                </a>
-                <a href="https://gemini.google.com/share/d831fb679647" target="_blank" class="card">
-                    <img src="cat-icon.svg" alt="Cat" class="card-icon">
-                    <span class="text">高年級教材 2</span>
+            <div class="node-row node-right">
+                <a href="https://gemini.google.com/share/d9bc36cda428" target="_blank" class="level-node low-grade-node" data-label="低年級 2">
+                    <span class="level-num">2</span>
                 </a>
             </div>
-        </section>
+
+            <div class="node-row node-center">
+                <a href="https://gemini.google.com/share/03659a058164" target="_blank" class="level-node mid-grade-node" data-label="中年級 1">
+                    <span class="level-num">3</span>
+                </a>
+            </div>
+
+            <div class="node-row node-left">
+                <a href="https://gemini.google.com/share/116e4904e05c" target="_blank" class="level-node mid-grade-node" data-label="中年級 2">
+                    <span class="level-num">4</span>
+                </a>
+            </div>
+
+            <div class="node-row node-right">
+                <a href="https://gemini.google.com/share/714a9c1368d2" target="_blank" class="level-node high-grade-node" data-label="高年級 1">
+                    <span class="level-num">5</span>
+                </a>
+            </div>
+
+            <div class="node-row node-center">
+                <a href="https://gemini.google.com/share/d831fb679647" target="_blank" class="level-node high-grade-node" data-label="高年級 2">
+                    <span class="level-num">6</span>
+                </a>
+            </div>
+
+            <!-- Goal -->
+            <div class="goal-point">
+                <span class="goal-star">⭐</span>
+                <span>終點</span>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2026 姚老師數學教室. 專為國小學生打造的學習天地。</p>
+        <p>&copy; 2026 姚老師數學教室. 展開驚奇的數學冒險之旅！</p>
     </footer>
 </body>
 </html>
